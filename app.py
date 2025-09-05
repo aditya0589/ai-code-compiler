@@ -29,7 +29,7 @@ if submitted:
 with st.sidebar:
     st.title("ABOUT AI COMPILER")
     st.markdown("""
-    This AI compiler was developed by ***Y.Aditya***  
+    This AI compiler is developed by ***Y.Aditya***  
     
     **Working:**  
     The compiler is powered by Google Gemini (gemini-1.5-flash LLM model),
@@ -42,6 +42,7 @@ with st.sidebar:
     3. The agent will review and execute your code  (or convert and execute if its natural language)
     4. Output will be displayed in the ***Output*** box below  
     """)
+
 
 
 
