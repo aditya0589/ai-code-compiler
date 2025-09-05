@@ -14,11 +14,17 @@ with st.form("my_form"):
     submitted = st.form_submit_button("run code")
 
 
-    result = execute_code(code)
-    output_box = st.text_area(
-    "output",
-    height=100,
-    value=result
+   if submitted:
+    try:
+        result = execute_code(code)
+    except Exception as e:
+        result = f"⚠️ Error while executing: {e}"
+    
+    # Display result
+    st.text_area(
+        "Output",
+        height=150,
+        value=result
     )
 
 with st.sidebar:
@@ -40,3 +46,4 @@ with st.sidebar:
     3. The agent will review, debug and then execute your code.
     4. Output will be displayed in the ***output*** box below.
     """)
+
