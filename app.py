@@ -1,7 +1,7 @@
 import streamlit as st
 from code_executer import execute_code 
 
-st.title("AI Code Compiler")
+st.title("AI Python Compiler")
 st.subheader("Built by Aditya")
 
 
@@ -42,6 +42,7 @@ with st.sidebar:
     3. The agent will review and execute your code  (or convert and execute if its natural language)
     4. Output will be displayed in the ***Output*** box below  
     """)
+
 
 
 
