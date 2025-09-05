@@ -37,9 +37,10 @@ with st.sidebar:
     It uses an AI agent to read and understand the written code, then execute it using the Python REPL tool.    
     
     **How to use:**  
-    1. Type your code in the input box provided  
+    1. Type your code in the input box provided (either it can be code or natural language text) 
     2. Click the ***Run Code*** button  
-    3. The agent will review and execute your code  
+    3. The agent will review and execute your code  (or convert and execute if its natural language)
     4. Output will be displayed in the ***Output*** box below  
     """)
+
 
