@@ -34,12 +34,12 @@ with st.sidebar:
     **Working:**  
     The compiler is powered by Google Gemini (gemini-1.5-flash LLM model),
     served via the LangChain API.  
-    It uses an AI agent to read and understand the written code, then execute it using the Python REPL tool.  
-    The AI agent also debugs syntax or logical errors automatically so that it gives accurate results even for error-ridden code.  
+    It uses an AI agent to read and understand the written code, then execute it using the Python REPL tool.    
     
     **How to use:**  
     1. Type your code in the input box provided  
     2. Click the ***Run Code*** button  
-    3. The agent will review, debug, and execute your code  
+    3. The agent will review and execute your code  
     4. Output will be displayed in the ***Output*** box below  
     """)
+
